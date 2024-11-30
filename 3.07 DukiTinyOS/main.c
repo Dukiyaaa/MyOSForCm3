@@ -45,7 +45,7 @@ void tTaskInit(tTask *tTask, void(*entry)(void *), void * param, uint32_t prio, 
 	tNodeInit(&(tTask->linkNode));  //优先级队列
 	tTask->slice = TINYOS_SLICE_MAX; //时间片初始化
   tListAddFirst(&(taskTable[prio]),&(tTask->linkNode));
-	tBitMapSet(&taskPrioBitMap, prio);
+	tBitMapSet(&taskPrioBitMap, prio);//在位图中的对应优先级位置1，表明该优先级上有就绪任务
 	
 }
 
@@ -88,10 +88,11 @@ void tTaskDelayedInit(void) {
 	tListInit(&(tTaskDelayedList));
 }
 
-//
+//调度内容初始化
 void tTaskScheLockInit(void) {
 	int i;
 	uint32_t status = tTaskEnterCritical();
+	tBitMapInit(&taskPrioBitMap);
 	schedLockCounter = 0;
 	for(i = 0;i < TINYOS_PRIO_COUNT;i++) {
 		tListInit(&(taskTable[i]));
@@ -105,7 +106,6 @@ void tTaskSchedDisable(void) {
 	if(schedLockCounter < 255) {
 		schedLockCounter++;
 	}
-	tBitMapInit(&taskPrioBitMap);
 	tTaskExitCritical(status);
 }
 
