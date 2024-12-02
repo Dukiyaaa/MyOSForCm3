@@ -1,0 +1,8 @@
+.\objects\ttask.o: Source\tTask.c
+.\objects\ttask.o: Source\tinyOS.h
+.\objects\ttask.o: D:\MAIN\keil_new\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ttask.o: Source\tLib.h
+.\objects\ttask.o: Source\tconfig.h
+.\objects\ttask.o: Source\tEvent.h
+.\objects\ttask.o: Source\tTask.h
+.\objects\ttask.o: Source\tSem.h
