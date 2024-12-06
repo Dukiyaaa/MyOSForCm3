@@ -1,0 +1,1456 @@
+Dependencies for Project 'QuadrotorAircraft', Target 'QuadrotorAircraft': (DO NOT MODIFY !)
+F (startup_stm32f401xe.s)(0x673EE8F9)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F401xE SETA 1"--list startup_stm32f401xe.lst --xref -o quadrotoraircraft\startup_stm32f401xe.o --depend quadrotoraircraft\startup_stm32f401xe.d)
+F (../Core/Src/main.c)(0x6752FC53)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\main.o --omf_browse quadrotoraircraft\main.crf --depend quadrotoraircraft\main.d)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Core/Inc/tim.h)(0x673EE8F6)
+I (../Core/Inc/usart.h)(0x673C7E22)
+I (../Core/Inc/gpio.h)(0x673C7E22)
+I (..\BSP\MySerial.h)(0x673EC0E7)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\BSP\MPU6050.h)(0x674EBCA6)
+I (..\Attitude\Anonymity.h)(0x673D4CED)
+I (..\Attitude\AttitudeSolver.h)(0x674E88E8)
+I (..\Attitude\MadgWick.h)(0x673EDF6F)
+I (..\Attitude\MyMadgWick.h)(0x673EDF70)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\BSP\Motor.h)(0x673EDE89)
+I (..\BSP\Receiver.h)(0x6741BC15)
+I (..\BSP\UpdateMotorState.h)(0x6752DD69)
+I (..\Attitude\AttitudePIDController.h)(0x6752DD55)
+I (..\Attitude\PID.h)(0x6752DD5E)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (../Core/Src/gpio.c)(0x67453F8D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\gpio.o --omf_browse quadrotoraircraft\gpio.crf --depend quadrotoraircraft\gpio.d)
+I (../Core/Inc/gpio.h)(0x673C7E22)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Core/Src/tim.c)(0x6752EB7C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tim.o --omf_browse quadrotoraircraft\tim.crf --depend quadrotoraircraft\tim.d)
+I (../Core/Inc/tim.h)(0x673EE8F6)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Core/Src/usart.c)(0x673C7E22)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\usart.o --omf_browse quadrotoraircraft\usart.crf --depend quadrotoraircraft\usart.d)
+I (../Core/Inc/usart.h)(0x673C7E22)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Core/Src/stm32f4xx_it.c)(0x6752EF2B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_it.o --omf_browse quadrotoraircraft\stm32f4xx_it.crf --depend quadrotoraircraft\stm32f4xx_it.d)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Core/Inc/stm32f4xx_it.h)(0x673EE8F6)
+F (../Core/Src/stm32f4xx_hal_msp.c)(0x673C7E23)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_msp.o --omf_browse quadrotoraircraft\stm32f4xx_hal_msp.crf --depend quadrotoraircraft\stm32f4xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_tim.o --omf_browse quadrotoraircraft\stm32f4xx_hal_tim.crf --depend quadrotoraircraft\stm32f4xx_hal_tim.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_tim_ex.o --omf_browse quadrotoraircraft\stm32f4xx_hal_tim_ex.crf --depend quadrotoraircraft\stm32f4xx_hal_tim_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_rcc.o --omf_browse quadrotoraircraft\stm32f4xx_hal_rcc.crf --depend quadrotoraircraft\stm32f4xx_hal_rcc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_rcc_ex.o --omf_browse quadrotoraircraft\stm32f4xx_hal_rcc_ex.crf --depend quadrotoraircraft\stm32f4xx_hal_rcc_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_flash.o --omf_browse quadrotoraircraft\stm32f4xx_hal_flash.crf --depend quadrotoraircraft\stm32f4xx_hal_flash.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_flash_ex.o --omf_browse quadrotoraircraft\stm32f4xx_hal_flash_ex.crf --depend quadrotoraircraft\stm32f4xx_hal_flash_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_flash_ramfunc.o --omf_browse quadrotoraircraft\stm32f4xx_hal_flash_ramfunc.crf --depend quadrotoraircraft\stm32f4xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_gpio.o --omf_browse quadrotoraircraft\stm32f4xx_hal_gpio.crf --depend quadrotoraircraft\stm32f4xx_hal_gpio.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_dma_ex.o --omf_browse quadrotoraircraft\stm32f4xx_hal_dma_ex.crf --depend quadrotoraircraft\stm32f4xx_hal_dma_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_dma.o --omf_browse quadrotoraircraft\stm32f4xx_hal_dma.crf --depend quadrotoraircraft\stm32f4xx_hal_dma.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_pwr.o --omf_browse quadrotoraircraft\stm32f4xx_hal_pwr.crf --depend quadrotoraircraft\stm32f4xx_hal_pwr.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_pwr_ex.o --omf_browse quadrotoraircraft\stm32f4xx_hal_pwr_ex.crf --depend quadrotoraircraft\stm32f4xx_hal_pwr_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_cortex.o --omf_browse quadrotoraircraft\stm32f4xx_hal_cortex.crf --depend quadrotoraircraft\stm32f4xx_hal_cortex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal.o --omf_browse quadrotoraircraft\stm32f4xx_hal.crf --depend quadrotoraircraft\stm32f4xx_hal.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_exti.o --omf_browse quadrotoraircraft\stm32f4xx_hal_exti.crf --depend quadrotoraircraft\stm32f4xx_hal_exti.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x66120FBE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\stm32f4xx_hal_uart.o --omf_browse quadrotoraircraft\stm32f4xx_hal_uart.crf --depend quadrotoraircraft\stm32f4xx_hal_uart.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (../Core/Src/system_stm32f4xx.c)(0x66120F9A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\system_stm32f4xx.o --omf_browse quadrotoraircraft\system_stm32f4xx.crf --depend quadrotoraircraft\system_stm32f4xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (..\BSP\MPU6050.c)(0x673EC0E7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\mpu6050.o --omf_browse quadrotoraircraft\mpu6050.crf --depend quadrotoraircraft\mpu6050.d)
+I (..\BSP\mpu6050.h)(0x674EBCA6)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\BSP\MyIIC.h)(0x673C8E5F)
+F (..\BSP\Motor.c)(0x67453F8E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\motor.o --omf_browse quadrotoraircraft\motor.crf --depend quadrotoraircraft\motor.d)
+I (..\BSP\Motor.h)(0x673EDE89)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Core/Inc/tim.h)(0x673EE8F6)
+I (..\BSP\MySerial.h)(0x673EC0E7)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\BSP\Motor.h)(0x673EDE89)()
+F (..\BSP\MPU6050.h)(0x674EBCA6)()
+F (..\BSP\MyIIC.c)(0x67453F8E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\myiic.o --omf_browse quadrotoraircraft\myiic.crf --depend quadrotoraircraft\myiic.d)
+I (..\BSP\MyIIC.h)(0x673C8E5F)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\BSP\MyIIC.h)(0x673C8E5F)()
+F (..\BSP\MySerial.c)(0x673C87E9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\myserial.o --omf_browse quadrotoraircraft\myserial.crf --depend quadrotoraircraft\myserial.d)
+I (..\BSP\MySerial.h)(0x673EC0E7)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Core/Inc/usart.h)(0x673C7E22)
+F (..\BSP\MySerial.h)(0x673EC0E7)()
+F (..\BSP\Receiver.c)(0x67510F2B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\receiver.o --omf_browse quadrotoraircraft\receiver.crf --depend quadrotoraircraft\receiver.d)
+I (..\BSP\Receiver.h)(0x6741BC15)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Core/Inc/tim.h)(0x673EE8F6)
+I (..\BSP\MySerial.h)(0x673EC0E7)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\BSP\Receiver.h)(0x6741BC15)()
+F (..\BSP\UpdateMotorState.c)(0x6750245D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\updatemotorstate.o --omf_browse quadrotoraircraft\updatemotorstate.crf --depend quadrotoraircraft\updatemotorstate.d)
+I (..\BSP\UpdateMotorState.h)(0x6752DD69)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\BSP\Receiver.h)(0x6741BC15)
+I (..\BSP\Motor.h)(0x673EDE89)
+F (..\BSP\UpdateMotorState.h)(0x6752DD69)()
+F (..\Attitude\Anonymity.c)(0x675120F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\anonymity.o --omf_browse quadrotoraircraft\anonymity.crf --depend quadrotoraircraft\anonymity.d)
+I (..\Attitude\Anonymity.h)(0x673D4CED)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\BSP\MySerial.h)(0x673EC0E7)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\BSP\MPU6050.h)(0x674EBCA6)
+F (..\Attitude\Anonymity.h)(0x673D4CED)()
+F (..\Attitude\AttitudeSolver.c)(0x674EC585)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\attitudesolver.o --omf_browse quadrotoraircraft\attitudesolver.crf --depend quadrotoraircraft\attitudesolver.d)
+I (..\Attitude\AttitudeSolver.h)(0x674E88E8)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Attitude\MadgWick.h)(0x673EDF6F)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\math.h)(0x588B8344)
+F (..\Attitude\AttitudeSolver.h)(0x674E88E8)()
+F (..\Attitude\GaussNewton.c)(0x673C95A9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\gaussnewton.o --omf_browse quadrotoraircraft\gaussnewton.crf --depend quadrotoraircraft\gaussnewton.d)
+I (..\Attitude\GaussNewton.h)(0x673C9311)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\math.h)(0x588B8344)
+F (..\Attitude\GaussNewton.h)(0x673C9311)()
+F (..\Attitude\MadgWick.c)(0x673C9933)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\madgwick.o --omf_browse quadrotoraircraft\madgwick.crf --depend quadrotoraircraft\madgwick.d)
+I (..\Attitude\MadgWick.h)(0x673EDF6F)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\math.h)(0x588B8344)
+F (..\Attitude\MadgWick.h)(0x673EDF6F)()
+F (..\Attitude\MyMadgWick.c)(0x673D5814)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\mymadgwick.o --omf_browse quadrotoraircraft\mymadgwick.crf --depend quadrotoraircraft\mymadgwick.d)
+I (..\Attitude\MyMadgWick.h)(0x673EDF70)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\BSP\MPU6050.h)(0x674EBCA6)
+F (..\Attitude\MyMadgWick.h)(0x673EDF70)()
+F (..\Attitude\PID.c)(0x674F00A7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\pid.o --omf_browse quadrotoraircraft\pid.crf --depend quadrotoraircraft\pid.d)
+I (..\Attitude\PID.h)(0x6752DD5E)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\BSP\MySerial.h)(0x673EC0E7)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\Attitude\PID.h)(0x6752DD5E)()
+F (..\Attitude\AttitudePIDController.c)(0x674EC8C9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\attitudepidcontroller.o --omf_browse quadrotoraircraft\attitudepidcontroller.crf --depend quadrotoraircraft\attitudepidcontroller.d)
+I (..\Attitude\AttitudePIDController.h)(0x6752DD55)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\Attitude\PID.h)(0x6752DD5E)
+I (..\Attitude\MadgWick.h)(0x673EDF6F)
+I (..\Attitude\AttitudeSolver.h)(0x674E88E8)
+I (..\BSP\MPU6050.h)(0x674EBCA6)
+I (..\BSP\MySerial.h)(0x673EC0E7)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\Attitude\AttitudePIDController.h)(0x6752DD55)()
+F (..\Source\app.c)(0x6752FA7B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\app.o --omf_browse quadrotoraircraft\app.crf --depend quadrotoraircraft\app.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+I (..\BSP\MySerial.h)(0x673EC0E7)
+I (../Core/Inc/main.h)(0x673C81A6)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\Source\switch.c)(0x6752EE89)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\switch.o --omf_browse quadrotoraircraft\switch.crf --depend quadrotoraircraft\switch.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (..\Source\tBitMap.c)(0x6746CB7E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tbitmap.o --omf_browse quadrotoraircraft\tbitmap.crf --depend quadrotoraircraft\tbitmap.d)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (..\Source\tConfig.h)(0x6752D69A)()
+F (..\Source\tCpu.c)(0x6752EF2A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tcpu.o --omf_browse quadrotoraircraft\tcpu.crf --depend quadrotoraircraft\tcpu.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x66120F9A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h)(0x66120F9A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x66120F9C)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x66120F9C)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x66120F9A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x66120FBE)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x673ED66D)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x66120FBE)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x66120FBE)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x66120FBE)
+F (..\Source\tEvent.c)(0x675164A0)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tevent.o --omf_browse quadrotoraircraft\tevent.crf --depend quadrotoraircraft\tevent.d)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tEvent.h)(0x67515F28)()
+F (..\Source\tFlagGroup.c)(0x6752D16F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tflaggroup.o --omf_browse quadrotoraircraft\tflaggroup.crf --depend quadrotoraircraft\tflaggroup.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tFlagGroup.h)(0x675155D4)()
+F (..\Source\tHooks.c)(0x6752D6A7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\thooks.o --omf_browse quadrotoraircraft\thooks.crf --depend quadrotoraircraft\thooks.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tHooks.h)(0x6752D6D5)()
+F (..\Source\tinyOS.h)(0x6752FC3C)()
+F (..\Source\tLib.h)(0x674AF7D1)()
+F (..\Source\tList.c)(0x674DCA8B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tlist.o --omf_browse quadrotoraircraft\tlist.crf --depend quadrotoraircraft\tlist.d)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (..\Source\tMbox.c)(0x6752D185)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tmbox.o --omf_browse quadrotoraircraft\tmbox.crf --depend quadrotoraircraft\tmbox.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tMbox.h)(0x674D958F)()
+F (..\Source\tMemBlock.c)(0x6752DC87)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tmemblock.o --omf_browse quadrotoraircraft\tmemblock.crf --depend quadrotoraircraft\tmemblock.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tMemBlock.h)(0x67500E7C)()
+F (..\Source\tMutex.c)(0x6752D426)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tmutex.o --omf_browse quadrotoraircraft\tmutex.crf --depend quadrotoraircraft\tmutex.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tMutex.h)(0x675177E8)()
+F (..\Source\tSem.c)(0x6752D401)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tsem.o --omf_browse quadrotoraircraft\tsem.crf --depend quadrotoraircraft\tsem.d)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tSem.h)(0x674D65D6)()
+F (..\Source\tTask.c)(0x6752FB10)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\ttask.o --omf_browse quadrotoraircraft\ttask.crf --depend quadrotoraircraft\ttask.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tTask.h)(0x67529F02)()
+F (..\Source\tTime.c)(0x674DC9E2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\ttime.o --omf_browse quadrotoraircraft\ttime.crf --depend quadrotoraircraft\ttime.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tTimer.c)(0x6752D6DD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\ttimer.o --omf_browse quadrotoraircraft\ttimer.crf --depend quadrotoraircraft\ttimer.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)
+F (..\Source\tTimer.h)(0x6752AC07)()
+F (..\Source\tinyOS.c)(0x6752FC21)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Attitude -I ..\BSP -I ..\Source-I.\RTE\_QuadrotorAircraft-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE-o quadrotoraircraft\tinyos.o --omf_browse quadrotoraircraft\tinyos.crf --depend quadrotoraircraft\tinyos.d)
+I (..\Source\tinyOS.h)(0x6752FC3C)
+I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Source\tLib.h)(0x674AF7D1)
+I (..\Source\tconfig.h)(0x6752D69A)
+I (..\Source\tEvent.h)(0x67515F28)
+I (..\Source\tTask.h)(0x67529F02)
+I (..\Source\tSem.h)(0x674D65D6)
+I (..\Source\tMbox.h)(0x674D958F)
+I (..\Source\tMemBlock.h)(0x67500E7C)
+I (..\Source\tFlagGroup.h)(0x675155D4)
+I (..\Source\tMutex.h)(0x675177E8)
+I (..\Source\tTimer.h)(0x6752AC07)
+I (..\Source\tHooks.h)(0x6752D6D5)

@@ -1,0 +1,14 @@
+quadrotoraircraft\tflaggroup.o: ..\Source\tFlagGroup.c
+quadrotoraircraft\tflaggroup.o: ..\Source\tinyOS.h
+quadrotoraircraft\tflaggroup.o: D:\MAIN\keil_new\ARM\ARMCC\Bin\..\include\stdint.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tLib.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tconfig.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tEvent.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tTask.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tSem.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tMbox.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tMemBlock.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tFlagGroup.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tMutex.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tTimer.h
+quadrotoraircraft\tflaggroup.o: ..\Source\tHooks.h
