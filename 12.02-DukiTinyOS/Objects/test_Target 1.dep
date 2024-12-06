@@ -1,5 +1,5 @@
 Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x6752C5DF)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="524" -D_RTE_ -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x6752CE97)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="524" -D_RTE_ -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\Source\tinyOS.h)(0x6752B7AF)
 I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (.\Source\tLib.h)(0x674AF7D1)
@@ -88,7 +88,7 @@ I (D:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x5898498
 I (D:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
 I (D:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
 I (D:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x58984992)
-F (.\Source\app.c)(0x6752BB50)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="524" -D_RTE_ -DARMCM3-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
+F (.\Source\app.c)(0x6752CBB3)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\Source-I.\RTE\_Target_1-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="524" -D_RTE_ -DARMCM3-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
 I (Source\tinyOS.h)(0x6752B7AF)
 I (D:\MAIN\keil_new\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (Source\tLib.h)(0x674AF7D1)

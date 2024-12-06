@@ -15,14 +15,14 @@ int task1Flag;
 float cpuUsage = 0.0f;
 void task1Entry (void * param)
 {
-    for (;;)
+     for (;;)
     {
         task1Flag = 1;
         tTaskDelay(1);
         task1Flag = 0;
         tTaskDelay(1);
 			
-//			  cpuUsage = tCpuUsageGet();
+			  cpuUsage = tCpuUsageGet();
     }
 }
 

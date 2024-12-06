@@ -24,9 +24,9 @@ uint32_t idleMaxCount;
 //统计时钟节拍发生次数
 uint32_t tickCount;
 
-static void cpuUsageSyncWithSysTick(void);
-static void initCpuUsageState(void);
-static void checkCpuUsage(void);
+static void initCpuUsageState (void);
+static void checkCpuUsage (void);
+static void cpuUsageSyncWithSysTick (void);
 
 //查找最高优先级的就绪任务
 tTask * tTaskHighestReady(void) {
@@ -62,6 +62,7 @@ void tTaskSchedInit(void) {
 	int i;
 	uint32_t status = tTaskEnterCritical();
 	schedLockCounter = 0;
+  tBitMapInit(&taskPrioBitMap);
 	for(i = 0;i < TINYOS_PRIO_COUNT;i++) {
 		tListInit(&(taskTable[i]));
 	}
@@ -74,7 +75,6 @@ void tTaskSchedDisable(void) {
 	if(schedLockCounter < 255) {
 		schedLockCounter++;
 	}
-	tBitMapInit(&taskPrioBitMap);
 	tTaskExitCritical(status);
 }
 
@@ -158,94 +158,134 @@ void tTaskSystemTickHandler(void) {
 		}
 	}
 	
-	tickCount++;
-	checkCpuUsage();//计算cpu使用率
-	tTaskExitCritical(status);
-	//此函数会先扫描硬件定时器列表，再通知软定时器可以扫描一次
-	tTimerModuleTickNotify();
-	tTaskSched();
+	// 节拍计数增加
+    tickCount++;
+
+    // 检查cpu使用率
+    checkCpuUsage();
+
+    // 退出临界区
+    tTaskExitCritical(status); 
+
+    // 通知定时器模块节拍事件
+    tTimerModuleTickNotify();
+
+    // 这个过程中可能有任务延时完毕(delayTicks = 0)，进行一次调度。
+    tTaskSched();
 }
 
 static float cpuUsage;
 //需要保证在一个节拍新开始时空闲计数器开始计数
 uint32_t enableCpuUsageState;
-static void initCpuUsageState(void) {
-	enableCpuUsageState = 0;
-	idleCount = 0;
-	cpuUsage = 0.0f;
-  idleMaxCount = 0;
+static void initCpuUsageState (void)
+{
+    idleCount = 0;
+    idleMaxCount = 0;
+    cpuUsage = 0;
+    enableCpuUsageState = 0;
 }
 
-static void checkCpuUsage(void) {
-	if(enableCpuUsageState == 0) {
-		enableCpuUsageState = 1;
-		tickCount = 0;
-		return;
-	}
-	
-	if(tickCount == TICKS_PER_SEC) {
-		idleMaxCount = idleCount;
-		idleCount = 0;
-		tTaskSchedEnable();
-	}
-	//之后每隔一秒钟计算一次占用率
-	else if(tickCount % TICKS_PER_SEC == 0) {
-		cpuUsage = (1 - idleCount / idleMaxCount) * 100;
-		idleCount = 0;
-	}
+static void checkCpuUsage (void)
+{
+    // 与空闲任务的cpu统计同步
+    if (enableCpuUsageState == 0)
+    {
+        enableCpuUsageState = 1;
+        tickCount = 0;
+        return;
+    }
+
+    if (tickCount == TICKS_PER_SEC)
+    {
+        // 统计最初1s内的最大计数值
+        idleMaxCount = idleCount;
+        idleCount = 0;
+
+        // 计数完毕，开启调度器，允许切换到其它任务
+        tTaskSchedEnable();
+    }
+    else if (tickCount % TICKS_PER_SEC == 0)
+    {
+        // 之后每隔1s统计一次，同时计算cpu利用率
+        cpuUsage = 100 - (idleCount * 100.0 / idleMaxCount);
+        idleCount = 0;
+    }
 }
 
-static void cpuUsageSyncWithSysTick(void) {
-	while(enableCpuUsageState == 0) {
-		;;
-	}
+
+static void cpuUsageSyncWithSysTick (void)
+{
+    // 等待与时钟节拍同步
+    while (enableCpuUsageState == 0)
+    {
+        ;;
+    }
 }
 
-float tCpuUsageGet(void) {
-	float usage = 0;
-	uint32_t status = tTaskEnterCritical();
-	usage = cpuUsage;
-	tTaskExitCritical(status);
-	
-	return usage;
-}
-//定义空闲任务
-tTask TtaskIdle;
-tTaskStack taskIdleStack[TINYOS_IDLETASK_STACK_SIZE];
+float tCpuUsageGet (void)
+{
+    float usage = 0;
 
-void taskIdle(void *param) {
-	tTaskSchedDisable();//关闭调度锁 防止空闲任务第一次运行时进行任务调度
-	//用户任务初始化
-	tInitApp();
-  //软硬定时器任务初始化
-	tTimerInitTask();
-	//定时器节拍设定
-	tSetSysTickPeriod(TINYOS_SYSTICK_MS);
-	//进行时钟同步，保证在一个周期开始时开始计数
-	cpuUsageSyncWithSysTick();
-	while(1) {
-		uint32_t status = tTaskEnterCritical();
-		idleCount++;
-		tTaskExitCritical(status);
-	}
-	
+    uint32_t status = tTaskEnterCritical();
+    usage = cpuUsage;
+    tTaskExitCritical(status);
+
+    return usage;
 }
 
- int main() {	
-	tTaskSchedInit();
-	 
-	tTaskDelayedInit();
-	 
-	tTimerModuleInit();
-	 
-	tTimeTickInit();//初始化tickcount = 0
-	 
-	initCpuUsageState();// 初始化cpu测量相关的变量
-	 
-	tTaskInit(&TtaskIdle, taskIdle, (void *)0, TINYOS_PRIO_COUNT - 1, taskIdleStack,TINYOS_IDLETASK_STACK_SIZE); //最低优先级
-	
-	nextTask = tTaskHighestReady();
-	
-	tTaskRunFirst();
-	return 0;
+
+// 用于空闲任务的任务结构和堆栈空间
+tTask tTaskIdle;
+tTaskStack idleTaskEnv[TINYOS_IDLETASK_STACK_SIZE];
+
+void idleTaskEntry (void * param) {
+    // 禁止调度，防止后面在创建任务时切换到其它任务中去
+    tTaskSchedDisable();
+
+    // 初始化App相关配置
+    tInitApp();
+
+    // 初始化定时器任务
+    tTimerInitTask();
+
+    // 启动系统时钟节拍
+    tSetSysTickPeriod(TINYOS_SYSTICK_MS);
+
+    // 等待与时钟同步
+    cpuUsageSyncWithSysTick();
+
+    for (;;)
+    {
+        uint32_t status = tTaskEnterCritical();
+        idleCount++;
+        tTaskExitCritical(status);
+    }
+}
+
+int main () 
+{
+    // 优先初始化tinyOS的核心功能
+    tTaskSchedInit();
+
+    // 初始化延时队列
+    tTaskDelayedInit();
+
+    // 初始化定时器模块
+    tTimerModuleInit();
+
+    // 初始化时钟节拍
+    tTimeTickInit();
+
+    // 初始化cpu统计
+    initCpuUsageState();
+
+    // 创建空闲任务
+    tTaskInit(&tTaskIdle, idleTaskEntry, (void *)0, TINYOS_PRIO_COUNT - 1, idleTaskEnv, TINYOS_IDLETASK_STACK_SIZE);
+    
+    // 这里，不再指定先运行哪个任务，而是自动查找最高优先级的任务运行
+    nextTask = tTaskHighestReady();
+
+    // 切换到nextTask， 这个函数永远不会返回
+    tTaskRunFirst();
+    return 0;
 }
