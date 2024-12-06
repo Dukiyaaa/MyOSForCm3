@@ -1,0 +1,17 @@
+.\objects\tcpu.o: Source\tCpu.c
+.\objects\tcpu.o: Source\tinyOS.h
+.\objects\tcpu.o: D:\MAIN\keil_new\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tcpu.o: Source\tLib.h
+.\objects\tcpu.o: Source\tconfig.h
+.\objects\tcpu.o: Source\tEvent.h
+.\objects\tcpu.o: Source\tTask.h
+.\objects\tcpu.o: Source\tSem.h
+.\objects\tcpu.o: Source\tMbox.h
+.\objects\tcpu.o: Source\tMemBlock.h
+.\objects\tcpu.o: Source\tFlagGroup.h
+.\objects\tcpu.o: Source\tMutex.h
+.\objects\tcpu.o: D:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include\ARMCM3.h
+.\objects\tcpu.o: D:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
+.\objects\tcpu.o: D:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\objects\tcpu.o: D:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\objects\tcpu.o: D:\MAIN\keil_new\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include\system_ARMCM3.h
