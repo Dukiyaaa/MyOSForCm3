@@ -1,5 +1,4 @@
 #include "tinyOS.h"
-#include "ARMCM3.h"
 #include "tLib.h"
 #include "tConfig.h"
 

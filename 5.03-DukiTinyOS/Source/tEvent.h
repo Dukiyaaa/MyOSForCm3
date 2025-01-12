@@ -2,10 +2,12 @@
 #define __TEVENT_H
 #include "tLib.h"
 #include "tTask.h"
+
+//事件类型
 typedef enum _tEventType {
 	tEventTypeUnknow,
 }tEventType;
-
+//事件结构体的定义
 typedef struct _tEvent {
 	tEventType type;
 	tList waitList;

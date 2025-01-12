@@ -5,7 +5,7 @@
 #define TINYOS_TASK_STATE_DESTORYED  (1 << 1) //删除状态
 #define TINYOS_TASK_STATE_DELAYED    (1 << 2)
 #define TINYOS_TASK_STATE_SUSPEND    (1 << 3) //挂起状态
-#define TINYOS_TASK_WAIT_MASK        (0xff << 16)
+#define TINYOS_TASK_WAIT_MASK        (0xff << 16) //等待事件状态
 
 struct _tEvent;
 typedef uint32_t tTaskStack;

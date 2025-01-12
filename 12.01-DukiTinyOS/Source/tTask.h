@@ -12,7 +12,7 @@ typedef uint32_t tTaskStack;
 
 typedef struct _tTask {
 	tTaskStack* stack;
-	tTaskStack * stackBase;
+	tTaskStack * stackBase; //新增栈底字段，用于计算堆栈使用情况
 	tTaskStack stackSize;
 	
 	uint32_t delayTicks;//添加软定时器

@@ -35,10 +35,9 @@ void tTaskSched(void) {
 	tmpTask = tTaskHighestReady();
 	if(tmpTask != curTask) {
 		nextTask = tmpTask;
+		tTaskExitCritical(status);
 		tTaskSwitch();
 	}
-	
-	tTaskExitCritical(status);
 }
 
 //延时队列初始化

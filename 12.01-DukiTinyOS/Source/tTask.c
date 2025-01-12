@@ -1,45 +1,72 @@
 #include "tinyOS.h"
 
 /**
- * @brief 定义任务初始化函数
+ * @brief 初始化任务
  * 
- * 该函数初始化任务的堆栈、优先级、状态等信息，并将任务准备就绪，以便加入任务调度队列。
+ * 该函数负责初始化一个任务，包括设置任务的堆栈、优先级、状态等基本信息，并将任务准备就绪，以便加入任务调度队列进行调度执行。
  * 
- * @param tTask 任务控制块指针，用于保存任务信息。
- * @param entry 任务的入口函数。
- * @param param 任务的入口函数参数。
- * @param prio 任务的优先级。
- * @param tTaskStack 任务堆栈指针，用于保存任务的上下文信息。
+ * @param task          指向任务控制块的指针，用于保存任务的相关信息。
+ * @param entry         任务的入口函数，即任务开始执行时调用的函数。
+ * @param param         传递给任务入口函数的参数。
+ * @param prio          任务的优先级，优先级数值越小，优先级越高。
+ * @param stack         指向任务堆栈底部的指针，用于保存任务的上下文信息。
+ * @param stackSize     任务堆栈的大小（单位：字节），用于分配堆栈空间。
  * 
  * @return void
+ * 
+ * @details
+ * 该函数执行以下主要步骤：
+ * 1. **堆栈初始化**：
+ *    - 设置任务的堆栈基地址和堆栈大小。
+ *    - 清空堆栈内容，确保堆栈初始状态干净。
+ *    - 计算堆栈顶指针的位置，为任务上下文的保存做准备。
+ * 
+ * 2. **堆栈帧设置**：
+ *    - 模拟中断返回时的堆栈帧，设置初始寄存器值，包括xPSR、PC、LR以及通用寄存器（R4-R12）。
+ *    - 特别注意xPSR寄存器的设置，第24位必须置1以进入Thumb模式。
+ * 
+ * 3. **任务控制块初始化**：
+ *    - 设置任务的堆栈指针为当前堆栈顶位置。
+ *    - 初始化任务的延时计数、优先级、状态（初始为就绪状态）。
+ *    - 设置任务的时间片为最大值，表示任务不会因为时间片耗尽而被抢占。
+ *    - 初始化挂起计数为0，表示任务当前未被挂起。
+ *    - 清除任务的清理回调函数及其参数，确保任务在销毁时不会执行未定义的操作。
+ *    - 初始化任务的延时队列节点和优先级队列节点，用于任务调度和延时管理。
+ * 
+ * 4. **任务调度准备**：
+ *    - 将任务加入就绪队列，等待调度器调度执行。
  */
-void tTaskInit(tTask *task, void(*entry)(void *), void * param, uint32_t prio, tTaskStack * stack, tTaskStack stackSize) {
-	  //现在传入的是堆栈底
-	  tTaskStack * stackTop;  //栈顶
-	  task->stackBase = stack;
-	  task->stackSize = stackSize;
-	  memset(stack,0,stackSize);
-	
-	  //栈顶指针等于栈底+栈单元个数
-	  stackTop = stack + stackSize / (sizeof(tTaskStack));
-	
-    // 设置xpsr寄存器，第24位置1进入Thumb模式
+void tTaskInit(tTask *task, void (*entry)(void *), void *param, uint32_t prio, tTaskStack *stack, tTaskStack stackSize) {
+    // 传入的是堆栈底部地址
+    tTaskStack *stackTop;  // 定义堆栈顶指针
+
+    // 设置任务的堆栈基地址和堆栈大小
+    task->stackBase = stack;
+    task->stackSize = stackSize;
+
+    // 清空堆栈内容
+    memset(stack, 0, stackSize);
+
+    // 计算堆栈顶指针，堆栈通常从高地址向低地址增长
+    stackTop = stack + stackSize / sizeof(tTaskStack);
+
+    // 设置xPSR寄存器，第24位（Thumb位）置1，确保进入Thumb模式
     *(--stackTop) = (unsigned long)(1 << 24); 
 
-    // 设置PC寄存器（程序计数器），即任务入口地址
+    // 设置PC寄存器（程序计数器）为任务入口函数地址
     *(--stackTop) = (unsigned long)entry;     
 
-    // 设置LR寄存器（链接寄存器），即任务返回地址
+    // 设置LR寄存器（链接寄存器）为任务返回地址（通常设为特定值）
     *(--stackTop) = (unsigned long)0x14;      
 
-    // 设置其他寄存器的初始值
+    // 设置其他寄存器的初始值（R12, R3, R2, R1）
     *(--stackTop) = (unsigned long)0x12;      // R12寄存器
     *(--stackTop) = (unsigned long)0x3;       // R3寄存器
     *(--stackTop) = (unsigned long)0x2;       // R2寄存器
     *(--stackTop) = (unsigned long)0x1;       // R1寄存器
-    *(--stackTop) = (unsigned long)param;     // 任务的入口函数参数
+    *(--stackTop) = (unsigned long)param;     // R0寄存器，传递给任务入口函数的参数
 
-    // 设置其他寄存器的初始值
+    // 设置其他寄存器的初始值（R11-R4）
     *(--stackTop) = (unsigned long)0x11;      // R11寄存器
     *(--stackTop) = (unsigned long)0x10;      // R10寄存器
     *(--stackTop) = (unsigned long)0x9;       // R9寄存器
@@ -49,32 +76,37 @@ void tTaskInit(tTask *task, void(*entry)(void *), void * param, uint32_t prio, t
     *(--stackTop) = (unsigned long)0x5;       // R5寄存器
     *(--stackTop) = (unsigned long)0x4;       // R4寄存器
 
-    // 设置任务的堆栈指针
+    // 设置任务的堆栈指针为当前堆栈顶位置
     task->stack = stackTop;
 
-    // 初始化任务的延时、优先级、状态等字段
+    // 初始化任务的延时计数为0，表示任务当前不在延时状态
     task->delayTicks = 0;
+
+    // 设置任务的优先级
     task->prio = prio;
+
+    // 设置任务的状态为就绪状态
     task->state = TINYOS_TASK_STATE_RDY;
 
-    // 初始化时间片
+    // 初始化任务的时间片为最大值，表示不受时间片限制
     task->slice = TINYOS_SLICE_MAX; 
 
-    // 初始化挂起计数
+    // 初始化任务的挂起计数为0，表示任务当前未被挂起
     task->suspendCount = 0;
 
-    // 清除清理回调函数及其参数
+    // 清除任务的清理回调函数及其参数
     task->clean = (void (*)(void *))0;
     task->cleanParam = (void *)0;
     task->requestDeleteFlag = 0;
 
-    // 初始化延时队列和优先级队列
-    tNodeInit(&(task->delayNode)); // 延时队列
-    tNodeInit(&(task->linkNode));  // 优先级队列
+    // 初始化任务的延时队列节点和优先级队列节点
+    tNodeInit(&(task->delayNode)); // 初始化延时队列节点
+    tNodeInit(&(task->linkNode));  // 初始化优先级队列节点
 
-    // 将任务加入就绪队列
+    // 将任务加入就绪队列，等待调度器调度执行
     tTaskSchedRdy(task);
 }
+
 
 /**
  * @brief 挂起任务

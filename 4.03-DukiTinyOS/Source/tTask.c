@@ -56,6 +56,7 @@ void tTaskSuspend(tTask * task) {
 	tTaskExitCritical(status);
 }
 
+//解除挂起
 void tTaskWakeUp(tTask * task) {
 	uint32_t status = tTaskEnterCritical();
 	

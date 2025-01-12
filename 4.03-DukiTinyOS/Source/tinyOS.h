@@ -10,6 +10,7 @@ typedef  uint32_t tTaskStack;
 #define TINYOS_TASK_STATE_DELAYED    (1 << 2)
 #define TINYOS_TASK_STATE_SUSPEND    (1 << 3) //挂起状态
 
+//任务结构体定义
 typedef struct _tTask {
 	tTaskStack* stack;
 	uint32_t delayTicks;//添加软定时器

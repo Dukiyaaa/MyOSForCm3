@@ -55,6 +55,7 @@ void tSemNotify(tSem * sem) {
 		//有任务在等这个资源，所以这个资源释放后直接拿给在等这个资源的任务用
 		tTask * task = tEventWakeUp(&sem->event, (void *)0, tErrorNoError);
 		if(task->prio < curTask->prio) {
+			tTaskExitCritical(status);	
 			tTaskSched();
 		}
 	}else {
